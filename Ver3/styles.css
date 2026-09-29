@@ -10,3 +10,22 @@
 .hub-node{--logo-body:var(--gold-light)}
 .brand-mark{width:43px}
 .inline-link{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:4px}
+/* Shared typography and Community Tournaments */
+.brand{font-size:31px;font-weight:800;letter-spacing:-1.1px}
+.brand-mark{width:47px;height:49px}
+nav{font-size:14px;font-weight:700;gap:23px}
+.hero .eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em}
+.hero-motto{font-size:14px;font-weight:700}
+.footer-top>div>a:not(.brand){font-size:14px;font-weight:600}
+.footer-top p{font-size:13px;font-weight:600}
+.footer-top .eyebrow{font-size:12px;font-weight:700}
+.footer-top .footer-motto{font-size:14px;font-weight:700}
+.footer-bottom{font-size:12px;font-weight:600}
+.community-intro{padding-bottom:80px;align-items:center}
+.community-intro h2{margin-bottom:25px}
+.community-privacy{background:var(--warm);padding:36px}
+.community-privacy h3{font-size:27px;margin:20px 0}
+.community-privacy p{font-size:15px}
+.community-symbol{font-size:38px;color:var(--focus)}
+@media(min-width:821px) and (max-width:1060px){nav{gap:12px;font-size:12px}.brand{font-size:27px}.brand-mark{width:38px}.nav-cta{padding:12px}}
+@media(max-width:600px){.brand{font-size:28px}.brand-mark{width:39px;height:43px}.hero .eyebrow{font-size:10px}.footer-top .brand{font-size:29px}.footer-top .brand-mark{width:39px}.community-intro{padding-bottom:50px}.community-privacy{padding:27px}.footer-top>div>a:not(.brand){font-size:13px;overflow-wrap:anywhere}}
