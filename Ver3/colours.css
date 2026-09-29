@@ -1,0 +1,20 @@
+/* AthleteOS colour palette. Change these values to recolour the entire website.
+   Keep --on-navy readable on --navy, and --ink readable on --paper. */
+:root {
+  --navy: #102c3a;
+  --navy-deep: #09222f;
+  --gold: #c8a45c;
+  --gold-light: #ead4a5;
+  --ink: #173543;
+  --muted: #5b6e77;
+  --paper: #faf9f6;
+  --surface: #ffffff;
+  --pale: #efeee8;
+  --warm: #f3edde;
+  --border: #dcded8;
+  --on-navy: #f7f6ef;
+  --on-navy-muted: #becbd0;
+  --focus: #986611;
+  --shadow: rgba(9, 34, 47, .16);
+  --glass: rgba(250, 249, 246, .96);
+}
