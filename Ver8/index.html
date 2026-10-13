@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AthleteOS | The Sports Operating System for Clubs</title>
+  <meta name="description" content="AthleteOS brings members, bookings, coaching, competitions, multi-sport leagues and offline live scoring into one secure platform for sports clubs.">
+  <meta name="theme-color" content="#071f2b">
+  <meta property="og:title" content="AthleteOS | Your club, in motion">
+  <meta property="og:description" content="One platform for members, bookings, coaching, competitions and live scoring, built for multi-sport clubs.">
+  <meta property="og:image" content="assets/athleteos-logo.png">
+  <link rel="icon" type="image/png" href="assets/athleteos-logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+      <a class="nav-brand" href="#top" aria-label="AthleteOS home">
+        <img src="assets/athleteos-logo.png" alt="" width="74" height="52">
+        <span>AthleteOS</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Menu</span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#platform">Platform</a></li>
+        <li><a href="#scoring">Live scoring</a></li>
+        <li><a href="#leagues">Leagues</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a class="btn btn-gold btn-small" href="#pilot">Join the pilot</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">The Sports Operating System for Clubs</p>
+          <h1>Your club, <em>in motion.</em></h1>
+          <p class="lede">One connected home for members, bookings, coaching, competitions, multi-sport leagues and live scoring that keeps working when the signal drops.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#pilot">Join the pilot</a>
+            <a class="btn btn-ghost" href="#platform">See what it does</a>
+          </div>
+          <ul class="hero-proof">
+            <li><strong data-count="20" data-suffix="+">20+</strong><span>sports</span></li>
+            <li><strong data-count="10">10</strong><span>tournament formats</span></li>
+            <li><strong>1</strong><span>private database per club</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="mock-card mock-score">
+            <p class="mock-label"><span class="live-dot"></span> Live · Badminton · Final</p>
+            <div class="mock-row"><span>Falcons</span><strong>21</strong></div>
+            <div class="mock-row mock-lead"><span>Herons</span><strong data-ticker>18</strong></div>
+            <p class="mock-foot">Offline-safe · Server verified</p>
+          </div>
+          <div class="mock-card mock-podium">
+            <p class="mock-label">Club League 2026 · Honours</p>
+            <ol>
+              <li class="p1"><span>1st</span>Ibises</li>
+              <li class="p2"><span>2nd</span>Falcons</li>
+              <li class="p3"><span>3rd</span>Kites</li>
+            </ol>
+          </div>
+          <p class="hero-motto">Play. Compete. Improve.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Challenge -->
+    <section class="section" id="challenge">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">The challenge</p>
+          <h2>Clubs still run on spreadsheets, group chats and paper score sheets</h2>
+        </header>
+        <div class="grid grid-3">
+          <article class="card reveal"><span class="icon" aria-hidden="true">👥</span><h3>Scattered members</h3><p>Member lists, families and membership numbers live in several spreadsheets that never agree.</p></article>
+          <article class="card reveal"><span class="icon" aria-hidden="true">📅</span><h3>Booking friction</h3><p>Courts and tables booked by phone or chat. Double bookings, no waitlist, no record.</p></article>
+          <article class="card reveal"><span class="icon" aria-hidden="true">🏆</span><h3>Tournament admin</h3><p>Draws, fixtures and results rebuilt by hand for every event and every sport.</p></article>
+          <article class="card reveal"><span class="icon" aria-hidden="true">📝</span><h3>Score disputes</h3><p>Paper sheets get lost, totals are wrong and nobody can say who changed what.</p></article>
+          <article class="card reveal"><span class="icon" aria-hidden="true">📈</span><h3>No athlete history</h3><p>Rankings, personal bests and club records are not kept, so progress is invisible.</p></article>
+          <article class="card reveal"><span class="icon" aria-hidden="true">🔓</span><h3>Weak security</h3><p>Shared admin passwords and personal data in email attachments.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform -->
+    <section class="section section-tint" id="platform">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">The platform</p>
+          <h2>Everything your club runs, in one place</h2>
+          <p>Web for administrators and members. A mobile app for members and match-day scorers.</p>
+        </header>
+        <div class="tabs reveal" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="Platform areas">
+            <button role="tab" id="tab-members" aria-controls="panel-members" aria-selected="true">Members &amp; families</button>
+            <button role="tab" id="tab-bookings" aria-controls="panel-bookings" aria-selected="false" tabindex="-1">Bookings</button>
+            <button role="tab" id="tab-coaching" aria-controls="panel-coaching" aria-selected="false" tabindex="-1">Coaching</button>
+            <button role="tab" id="tab-competitions" aria-controls="panel-competitions" aria-selected="false" tabindex="-1">Competitions</button>
+            <button role="tab" id="tab-performance" aria-controls="panel-performance" aria-selected="false" tabindex="-1">Performance</button>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-members" aria-labelledby="tab-members">
+            <div>
+              <h3>Bring your whole membership across in one afternoon</h3>
+              <p>Import from Excel or CSV with a preview, row-level errors and duplicate detection before anything is saved.</p>
+            </div>
+            <ul class="checks">
+              <li>Your own membership number format, such as <b>A-107-P</b> or <b>AA-888-X</b></li>
+              <li>Families linked by membership number and kept through import</li>
+              <li>Bulk member logins with a must-change first password</li>
+              <li>One login for members of several clubs; choose the club at sign-in</li>
+              <li>Self-service password reset by email</li>
+            </ul>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-bookings" aria-labelledby="tab-bookings" hidden>
+            <div>
+              <h3>Fill your courts, tables and lanes</h3>
+              <p>Conflict-free booking in your club's timezone, following your own rules for slot length, advance window and cancellation.</p>
+            </div>
+            <ul class="checks">
+              <li>Venues and up to 50 courts, tables or lanes at a time</li>
+              <li>Weekly opening hours and maintenance closures</li>
+              <li>Club, sport and resource booking rules</li>
+              <li>Waitlist offers when a slot frees up</li>
+              <li>Booking export and personal calendar download</li>
+            </ul>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-coaching" aria-labelledby="tab-coaching" hidden>
+            <div>
+              <h3>Run coaching programmes without the admin</h3>
+              <p>Recurring weekly programmes generate sessions automatically; members register and cancel themselves.</p>
+            </div>
+            <ul class="checks">
+              <li>Coach profiles per sport</li>
+              <li>Capacity limits with ordered waitlists</li>
+              <li>Coaches review rankings and verified history</li>
+            </ul>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-competitions" aria-labelledby="tab-competitions" hidden>
+            <div>
+              <h3>From entry form to final, in every format</h3>
+              <p>Season, competition, sport category, entries, draw, fixtures, scored match, result. Several sports can run in one competition.</p>
+            </div>
+            <ul class="chips">
+              <li>Knockout</li><li>Round robin</li><li>Groups + knockout</li><li>League table</li><li>Swiss</li>
+              <li>Ladder</li><li>Heats &amp; finals</li><li>Repechage</li><li>Timed race</li><li>Team tie</li>
+            </ul>
+          </div>
+          <div class="tab-panel" role="tabpanel" id="panel-performance" aria-labelledby="tab-performance" hidden>
+            <div>
+              <h3>Every match builds every athlete's story</h3>
+              <p>Only finalised, server-verified results count towards ratings and records.</p>
+            </div>
+            <ul class="checks">
+              <li>Versioned ratings per sport</li>
+              <li>Personal bests and club records with full history</li>
+              <li>Achievements and competition awards</li>
+              <li>Head-to-head and verified match history</li>
+              <li>Membership, booking and competition reports for committees</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Onboarding -->
+    <section class="section" id="onboarding">
+      <div class="container split">
+        <div class="reveal">
+          <p class="kicker">Club onboarding</p>
+          <h2>Live in days, not months</h2>
+          <p>Your own secure address, for example <b>yourclub.athleteos.club</b>, with your club logo. A guided setup and a go-live readiness list take your administrator from invitation to first tournament.</p>
+          <ul class="checks">
+            <li>Guided setup: identity, sports, venues, membership model, staff, import and defaults</li>
+            <li>Club emails sent with your club name and your reply-to address</li>
+            <li>Named administrators with a mandatory authenticator app</li>
+          </ul>
+        </div>
+        <ol class="timeline reveal" aria-label="Typical first week">
+          <li><span>Day 1</span>Invitation, sign-in, authenticator</li>
+          <li><span>Day 2</span>Sports, venues, opening hours</li>
+          <li><span>Day 3</span>Member import and logins</li>
+          <li><span>Day 4</span>Staff invitations and roles</li>
+          <li><span>Day 5</span>Pilot competition and scoring</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Live scoring -->
+    <section class="section section-dark" id="scoring">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Live scoring</p>
+          <h2>Score on any phone, even with no signal</h2>
+          <p>Sport-specific screens on mobile, plus a web scoring desk. Admins assign scorers to each match from the web.</p>
+        </header>
+        <div class="grid grid-3">
+          <article class="card card-dark reveal"><h3>Offline-first</h3><p>Every action is stored on the phone instantly and survives app restarts. Sync sends it in order when signal returns.</p></article>
+          <article class="card card-dark reveal"><h3>Never counted twice</h3><p>A dropped connection mid-sync is safe: the server recognises events it already has.</p></article>
+          <article class="card card-dark reveal"><h3>Conflict-safe</h3><p>Two phones on one match? The server keeps one official sequence and the other phone is told, never silently merged.</p></article>
+          <article class="card card-dark reveal"><h3>Server is the referee</h3><p>The official score is always calculated on the server; the phone shows a clearly labelled preview.</p></article>
+          <article class="card card-dark reveal"><h3>Sport-specific screens</h3><p>Rally points, tennis tie-breaks, snooker breaks, cricket ball-by-ball, darts, chess, golf holes and finish times.</p></article>
+          <article class="card card-dark reveal"><h3>Audited corrections</h3><p>Undo needs a reason; finalised results change only through a recorded correction chain.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leagues -->
+    <section class="section" id="leagues">
+      <div class="container split">
+        <div class="reveal">
+          <p class="kicker">Leagues &amp; honours</p>
+          <h2>One club league across every sport, crowned on your club page</h2>
+          <ul class="checks">
+            <li>League teams with owners and captains compete across several sports in one table</li>
+            <li>Each sport carries its own weightage; win, draw and loss points, tie-breaks and bonuses per league</li>
+            <li>Optional player auction with budgets and bid increments</li>
+            <li>Every point is an audited ledger entry; corrections reverse and recalculate automatically</li>
+            <li>Captains pick lineups; members follow their team and the live table</li>
+          </ul>
+        </div>
+        <div class="honours reveal">
+          <p class="honours-head"><span>Club League Cup</span><span class="pill">Season 2026</span></p>
+          <ol class="podium">
+            <li class="p1"><span>Winners</span><strong>Ibises</strong></li>
+            <li class="p2"><span>Runners-up</span><strong>Falcons</strong></li>
+            <li class="p3"><span>Third place</span><strong>Kites</strong></li>
+          </ol>
+          <p class="honours-note">Declared once and frozen with the final table. Sponsors shown with their logos. On your public club page only if you choose.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sports -->
+    <section class="section section-tint" id="sports">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Sports</p>
+          <h2>20+ sports ready for club play</h2>
+          <p>Each club switches on only the sports it plays. Generic points, best-of, timed and team-tie formats cover any other sport.</p>
+        </header>
+        <ul class="sports reveal">
+          <li>Badminton</li><li>Table Tennis</li><li>Lawn Tennis</li><li>Squash</li><li>Pickleball</li>
+          <li>Paddleball</li><li>Snooker</li><li>Billiards</li><li>Pool</li><li>Carrom</li>
+          <li>Foosball</li><li>Darts</li><li>Chess</li><li>Cricket</li><li>Box Cricket</li>
+          <li>Basketball</li><li>Golf</li><li>Swimming</li><li>Rowing</li><li>Indoor Rowing</li>
+        </ul>
+        <p class="fine reveal">Pilot status: all sports are in supervised beta while each sport completes production certification with launch clubs.</p>
+      </div>
+    </section>
+
+    <!-- Roles -->
+    <section class="section" id="roles">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">People &amp; roles</p>
+          <h2>The right access for every volunteer and staff member</h2>
+          <p>Several people can share a role, each with their own named login. No shared passwords.</p>
+        </header>
+        <div class="roles reveal">
+          <article><h3>Club Admin</h3><p>Setup, members, logins, staff, email settings</p><span>Authenticator required</span></article>
+          <article><h3>Sports Admin</h3><p>Sports, venues, bookings, competitions, leagues, scorers</p><span>Authenticator required</span></article>
+          <article><h3>Coach</h3><p>Coach profile, programmes and sessions</p><span>Authenticator required</span></article>
+          <article><h3>Scorer</h3><p>Scores assigned matches on mobile or the web desk</p><span>Per-match assignment</span></article>
+          <article><h3>Captain</h3><p>Team entries, rosters and lineups</p><span>Per-team assignment</span></article>
+          <article><h3>Member</h3><p>Bookings, coaching, entries, results, profile</p><span>Authenticator optional</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Security -->
+    <section class="section section-tint" id="security">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker">Security &amp; privacy</p>
+          <h2>Your club's data stays your club's data</h2>
+        </header>
+        <div class="grid grid-3">
+          <article class="card card-accent reveal"><h3>Dedicated club database</h3><p>Each club's members and results live in their own database, separate from every other club.</p></article>
+          <article class="card reveal"><h3>Strong sign-in</h3><p>Authenticator app mandatory for staff, recovery codes and single-use, time-limited reset links.</p></article>
+          <article class="card reveal"><h3>Private by default</h3><p>Member profiles are private; clubs publish only what they choose.</p></article>
+          <article class="card reveal"><h3>Full audit trail</h3><p>Imports, role changes, score events and result corrections are recorded.</p></article>
+          <article class="card reveal"><h3>Encrypted everywhere</h3><p>HTTPS on every club address; credentials never stored in club tables.</p></article>
+          <article class="card reveal"><h3>Federation ready</h3><p>Inter-club and community events exchange only the minimum data, through authenticated APIs.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="kicker">Questions</p>
+          <h2>Good to know</h2>
+        </header>
+        <div class="faq reveal">
+          <details><summary>Do we need our own server?</summary><p>No. Each club gets its own branded address and a private database on the AthleteOS platform. We provision it for you.</p></details>
+          <details><summary>What happens if the venue has no Wi-Fi?</summary><p>Scorers keep scoring on the phone. Every action is saved on the device and synced in order when the connection returns.</p></details>
+          <details><summary>Can members belong to more than one club?</summary><p>Yes. A member uses one email and password and chooses the club when signing in.</p></details>
+          <details><summary>Can we use our own club name on emails?</summary><p>Yes. Club emails go out with your club's sender name and your reply-to address.</p></details>
+          <details><summary>Is it ready for official events?</summary><p>AthleteOS is in a supervised pilot. We validate your sports, rules and first tournament with you before official use.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="pilot">
+      <div class="container cta-grid">
+        <div class="reveal">
+          <p class="kicker">Join the pilot</p>
+          <h2>Bring your club onto AthleteOS</h2>
+          <ul class="checks checks-light">
+            <li>We provision your club address, logo and email sender</li>
+            <li>Your administrator is guided through setup step by step</li>
+            <li>We validate your sports, rules and first tournament with you</li>
+            <li>Staff, scorer and member guides ready to share with your club</li>
+          </ul>
+        </div>
+        <div class="cta-card reveal">
+          <h3>Talk to us</h3>
+          <a class="btn btn-gold btn-block" href="mailto:admin@athleteos.club?subject=AthleteOS%20club%20pilot">admin@athleteos.club</a>
+          <a class="cta-link" href="https://www.athleteos.club">www.athleteos.club</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/athleteos-logo.png" alt="AthleteOS logo" width="92" height="65" loading="lazy">
+        <p>The Sports Operating System for Clubs.</p>
+      </div>
+      <p class="motto">Play. Compete. Improve.</p>
+      <p class="copy">© <span data-year>2026</span> AthleteOS · <a href="mailto:admin@athleteos.club">admin@athleteos.club</a></p>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Back to top">↑</a>
+  <script src="script.js" defer></script>
+</body>
+</html>
